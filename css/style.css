@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 20px;
+}
+
+#modalWindow {
+  width: 40%;
+  min-height: 70vh;
+  background-color: #F0F8FF;
+  border: 1px solid #F0F8FF;
+}
+
+
+#popupWindow {
+  height: auto;
+  border: 1px solid white;
+  background-color: white;
+  margin: 10px;
+}
+
+#buttonCollapse {
+  height: 25%;
+  background-color:cornflowerblue;
+  border-radius: 8px;
+  color: white;
+  font-size: 20px;
+  margin: 30px;
+  cursor: pointer;
+}
+
+.collapsable > p {
+  padding: 15px;
+  border: 1px solid lightgray;
+  font-size: 20px;
+}
+
+.collapsable {
+  margin: 25px;
+  display: block;
+  overflow: hidden;
+  transition: height 0.3s ease-out;
+  height: auto;
+}
+
+.copy {
+  text-align: right;
+  margin: 15px;
+  color:darkgrey;
+}
+
